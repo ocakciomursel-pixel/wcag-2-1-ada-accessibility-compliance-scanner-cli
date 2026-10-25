@@ -1,0 +1,30 @@
+{
+  "name": "@lucacelli/wcag-2-1-ada-accessibility-compliance-scanner-cli",
+  "version": "2.0.0",
+  "description": "Automated Node.js CLI scanner for auditing web pages against WCAG 2.1 Level AA accessibility rules: missing image alt attributes, ARIA labels, form controls, and heading hierarchy.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "wcag-2-1-ada-accessibility-compliance-scanner-cli": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "demo": "node index.js --demo"
+  },
+  "keywords": [
+    "wcag",
+    "accessibility",
+    "ada-compliance",
+    "a11y",
+    "web-accessibility",
+    "aria",
+    "alt-text",
+    "seo-audit",
+    "nodejs-cli",
+    "frontend-testing",
+    "qa-tools",
+    "lighthouse"
+  ],
+  "author": "Lucacelli Data Engineering",
+  "license": "MIT"
+}
