@@ -1,0 +1,33 @@
+{
+  "name": "Technical SEO, Broken Link, Schema.org & Security Auditor — Automated Make.com Scenario",
+  "flow": [
+    {
+      "id": 1,
+      "module": "http:ActionSendData",
+      "version": 3,
+      "parameters": {},
+      "mapper": {
+        "url": "https://api.apify.com/v2/acts/lucacelli~seo-technical-audit-broken-link-schema-analyzer/run-sync-get-dataset-items?token={{YOUR_APIFY_TOKEN}}",
+        "method": "post",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "qs": [],
+        "bodyType": "raw",
+        "parseResponse": true,
+        "contentType": "application/json",
+        "data": "{\"urls\":[\"https://apify.com\",\"https://cloudflare.com\"],\"checkBrokenLinks\":true}"
+      },
+      "metadata": {
+        "designer": {
+          "x": 0,
+          "y": 0
+        },
+        "notes": "Get your free $5 Apify API token & inspect Actor at https://apify.com/lucacelli/seo-technical-audit-broken-link-schema-analyzer"
+      }
+    }
+  ]
+}
